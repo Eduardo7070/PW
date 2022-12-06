@@ -1,0 +1,113 @@
+body {
+    background: #009ACD;
+}
+header{
+    background-color: #009ACD;
+    color: azure;
+}
+#logo{
+    width: 40%;
+    color: #009ACD;
+}
+.img-thumbnail{
+    background-color: #009ACD;
+}
+#nomeloja{
+    text-align: center;
+    padding-left: 39%;
+}
+nav{
+    text-decoration: none
+    ;
+    background-color: black;
+    color: azure;
+    text-align: center;
+    font-size: 19pt;
+}
+
+ul{
+    background-color: #104E8B;
+    color: rgb(0, 255, 255);
+
+}
+
+.listamenu{
+    background-color: black;
+    color: azure;
+}
+.listamenu li a{
+    color: #009ACD;
+    text-decoration: none;
+}
+nav li:hover{
+    background-color: #1C86EE;
+    text-decoration: none;
+    color: azure;
+    text-transform: none;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+
+}
+footer{
+    background-color: #104E8B;
+    color: azure;
+    text-align: center;
+}
+#carouselExampleIndicators {
+    width: 50%;
+    margin-left: 25%;
+    height: 50%;
+}
+.nomeLoja {
+    font-size: 70pt;
+    position: relative;
+}
+a {
+    text-decoration: none;
+}
+.areaExterna img{
+    width: 15.5%;
+    height: 80%;
+    margin-left: 3%;
+}
+
+#Fotos{
+    font-size: 2em;
+    background-image: linear-gradient(to bottom, #DAA520,rgb(210, 212, 44));
+
+}
+
+#texto2{
+
+    font-size: 2em;
+    background-image: linear-gradient(to bottom, #30b621,rgb(25, 66, 15));
+}
+.Quartos{
+    width: 100%;
+    height: 20%;
+    
+}
+.Quartos img{
+    width: 15.5%;
+    height: 80%;
+    margin-left: 3%;
+}
+
+.Pontos{
+    width: 100%;
+    height: 20%;
+}
+
+.Pontos img{
+    width: 15.5%;
+    height: 80%;
+    margin-left: 3%;
+
+}
+.row{
+    margin-right: 0;
+}

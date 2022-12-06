@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pousada Africana</title>
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/logo3.png">
+  </head>
+  <body>
+    <div class="container-fluid">
+        <header>
+            
+            <div class="row">
+                <div class="col">
+                    <div id="logo">
+                        <img src="images/Pousada Africana logo2.png" class="img-fluid" alt="...">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="nomeLoja"> POUSADA AFRICANA  </div>
+                </div>
+            </div>
+        </header>
+        <nav>
+            <ul class="listaMenu">
+                <div class="row">
+                    <div class="col">
+                        <li><a href="index.html"> Home </a></li>
+                    </div>
+                    <div class="col">
+                        <li><a href="galeria.html"> Galeria </a></li>
+                    </div>
+                    <div class="col">
+                        <li><a href="QuemSomos.html"> Sobre Nós </a></li>
+                    </div>
+                    <div class="col">
+                        <li><a href="Reserva.html"> Reserva </a></li>
+                    </div>
+                </div>
+            </ul>
+        </nav>
+
+
+
+        <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Loja XPTO</title>
+    </head>
+    <body>
+        <form name="frmCompra">
+            <label>Quarto:</label>
+            <select name="slcProduto" id="slcProduto">
+                <option value="0">Selecione um Quarto..</option>
+                <option value="1">Suíte Presedencial</option>
+                <option value="2">Quarto Simples</option>
+                <option value="3">Quarto da Amizade</option>
+                <option value="4">Quarto lua de mel</option>
+            </select>
+            <br><br>
+            <label>Quantidade de hospedes:</label>
+            <input type="text" name="qtde" id="qtde">
+            <br><br>
+            <label>Quantidade de Diarias:</label>
+            <input type="text" name="dias" id="dias">
+            <br><br>
+            <label>Refeiçoes: :</label>
+            <br>
+            <input type="radio" id="rdEntrega" name="rdEntrega" value="1"> Apenas café da manhã - R$ 40
+            <br>
+            <input type="radio" id="rdEntrega" name="rdEntrega" value="2"> Almoço e Jantar - R$ 55
+            <br>
+            <input type="radio" id="rdEntrega" name="rdEntrega" value="3"> Todas Refeições - R$ 95
+            <br><br>
+            <label>Adicionais:</label>
+            <br>
+            <input type="checkbox" id="embalagem" name="embalagem"> Translado
+            
+            <input type="checkbox" id="cartao" name="cartao"> Tour pela cidade
+            
+            <input type="checkbox" id="passeio" name="passeio"> Passeio
+            <br>
+            <input type="button" value="Comprar" onclick="comprar()">
+        </form>
+        <hr>
+        <h2>Resumo da compra</h2>
+        <div id="nomeProduto"></div>
+        <br>
+        <div id="valorUnitario"></div>
+        <br>
+        <div id="Refeição"></div>
+        <br>
+        <div id="adicionais"></div>
+        <br>
+        <div id="valorTotal"></div>
+     
+         
+            <footer>
+            <div class="row">
+                <div class="col">
+                    <div class="footer">
+                        <p class="fs-6">📱:+55(11)95178-8048ㅤㅤ📷: @pousada_africanaㅤㅤ📍:Rua Osvaldo freire, 210-a</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="js/comprar-produto.js"></script>
+    </body>
+        </html>
